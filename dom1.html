@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bg" style=" min-height:100 vh;" class="w-100 d-flex align-items-center justify-content-center">
+    <h1 id="first">Dom</h1>
+
+    <h1>dominar</h1>
+
+    <p class="group">DOM methods</p>
+    <ul class="group">
+        <li>using tagname</li>
+        <li>id</li>
+    </ul>
+
+    <button onclick="bgchange()" class="btn btn-primary">submit</button>
+</div>
+</body>
+    <script>
+
+        const bgchange=()=>{
+
+            const bgDiv=document.getElementById('bg')
+            console.log(bgDiv);
+            bgDiv.style.backgroundColor="red"
+            
+        }
+    </script>
+
+</html>
